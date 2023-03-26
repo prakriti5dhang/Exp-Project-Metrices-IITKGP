@@ -121,6 +121,7 @@ function subex(){
 function viewsolutionb(){
     document.getElementById("viewsol").disabled=false;
     document.getElementById("dispviewbtn").disabled=true;
+    window.scrollBy(0, 1500);
 }
 
  /* Exercise 1  project type choice*/
